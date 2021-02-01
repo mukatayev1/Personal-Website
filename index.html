@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Stellar by HTML5 UP</title>
+		<title>Aidos's Personal Website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +22,7 @@
 						<ul>
 							<li><a href="#about" class="active">About</a></li>
 							<li><a href="#projects">Projects</a></li>
-							<li><a href="#blog">Blog</a></li>
+							<!-- <li><a href="#blog">Blog</a></li> -->
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -37,8 +37,7 @@
 										<header class="major">
 											<h2>Aidos Mukatayev | IOS Developer</h2>
 										</header>
-										<p>- I am a self taught IOS Developer, constantly learning new technologies related to Swift development and educating myself to always keep up with the industry.<br><br>
-											 - I have a diverse background prior to IOS Development: data science and music creation.</p>
+										<p>- I am a self taught IOS Developer<br><br>
 									</div>
 									<span class="image"><img src="https://avatars1.githubusercontent.com/u/53441647?s=460&u=516e92250886c7907e16c0b3ae67798c3f81a550&v=4" alt="" /></span>
 								</div>
@@ -53,13 +52,37 @@
 								<div class="spotlight">
 									<div class="content project">
 										<header class="major">
+											<h3>COVID-19 Tracker App</h3>
+										</header>
+										<p>App that monitors latest statistic of the COVID-19 spread around the world and any country of the world.<br>
+										<b>About:</b> <br>
+													• Implemented Alamofire library for API Networking service<br>
+													• Implemented SnapKit library for Autolayout<br>
+													• Used SearchController to allows users quickly search through TableView list<br>
+													• Used Charts library to display Pie Chart of the corona virus statistics</p>
+
+										<b>Technologies: </b> <p> MVC, UIKit, Alamofire, TableView and Custom TableViewCell, Tab Bar Controller and Navigation Controller, SnapKit, Charts, Search Controller, 100% Programmatic UI, Git</p>
+										<ul class="icons">
+											<li><a href="https://github.com/mukatayev1/COVID-19-Tracker" class="icon brands fa-github alt"><span class="label">Check on GitHub</span></a></li>
+											<li><a href="https://www.youtube.com/watch?v=igq8UU6Ekdo&feature=youtu.be" class="icon brands fa-youtube alt"><span class="label">Check on YouTube</span></a></li>
+										</ul>
+									</div>
+									<span><img src="https://user-images.githubusercontent.com/53441647/106382249-ab807700-6401-11eb-820b-e379577df698.png" alt="" width="250" height="400"/>
+									 <img src="https://user-images.githubusercontent.com/53441647/106382250-ade2d100-6401-11eb-9b85-36270499a5a0.png" alt="" width="250" height="400"/></span>
+								</div>
+
+								<div class="spotlight">
+									<div class="content project">
+										<header class="major">
 											<h3>To-Do List</h3>
 										</header>
 										<p>A simple and visually appealing To-Do List app created with Realm database<br>
-										<b>How it works:</b> <br>
-													- Add the new task by pressing plus button<br>
-													- Swipe to the right to mark them with checkmark<br>
-													- Swipe to the left to delete tasks.</p>
+										<b>About:</b> <br>
+													• Add the new task by pressing plus button<br>
+													• Swipe to the right to mark them with checkmark<br>
+													• Swipe to the left to delete tasks<br>
+													• Used Realm database for data persistence<br>
+													• Used new DiffableDataSource’s swiping actions for smoother user experience</p>
 										<b>Technologies: </b> <p> 100% Programmatic UI, AutoLayout, Realm Swift, MVVM pattern, CocoaPods, Diffable Data Source, Git</p>
 										<ul class="icons">
 											<li><a href="https://github.com/mukatayev1/ToDo-List-App" class="icon brands fa-github alt"><span class="label">Check on GitHub</span></a></li>
@@ -77,11 +100,13 @@
 											<h3>Pomodoro Timer</h3>
 										</header>
 										<p>A simple timer app that helps the user to focus on work for a specific time period using Pomodoro Technique<br>
-										<b>How it works:</b> <br>
-													- Set the timer for 25 minutes <br>
-													- Work on one task until timer finishes <br>
-													- Take a short break <br>
-													- Do it again </p>
+										<b>About:</b> <br>
+													• Set the timer <br>
+													• Do it again <br>
+													• Smooth Animations for better UX<br>
+													• Circle filling animation while timer is on<br>
+													• Dark Mode Implementation<br>
+													• Start, Pause, Reset functionalities</p>
 										<b>Technologies: </b> <p> 100% Programmatic UI, UIKit, Autolayout, CABasicAnimation, MVC Pattern, Timer class, Custom Dark Mode, Git </p>
 									<ul class="icons">
 											<li><a href="https://github.com/mukatayev1/Pomodoro-Timer" class="icon brands fa-github alt"><span class="label">Check on GitHub</span></a></li>
@@ -98,10 +123,11 @@
 											<h3>My Messenger</h3>
 										</header>
 										<p>This is a Messenger App created using Firebase services. Two users can chat with each other<br>
-										<b>How it works:</b> <br>
-													- Sign in or sign up <br>
-													- Choose the user to chat with <br>
-													- Start messaging </p>
+										<b>About:</b> <br>
+										• Developed a chat app using Firebase platform<br>
+										• Built authentication pages with email and password<br>
+										• Built messenger for chatting capabilities<br>
+										• Built profile page with profile image and logout views</p>
 										<b>Technologies: </b> <p> 100% Programmatic UI, UIKit, AutoLayout, Firebase(Authentication, Cloud Firestore, Storage), JGProgressHUD, MVVM pattern, CocoaPods, Git </p>
 										<ul class="icons">
 											<li><a href="https://github.com/mukatayev1/MyMessenger" class="icon brands fa-github alt"><span class="label">Check on GitHub</span></a></li>
@@ -118,10 +144,11 @@
 											<h3>RxSwift-Weather-App</h3>
 										</header>
 										<p>A Weather app created using RxSwift and <a href="https://openweathermap.org/">Open Weather Map</a> API <br>
-										<b>How it works:</b> <br>
-													- Get current weather of his/her current location<br>
-													- Search any city and get the detailed weather information<br>
-													- Get current location's weather by just tapping "location" button at the bottom of the screen</p>
+										<b>About:</b> <br>
+													• Developed a simple weather app using RxSwift and https://openweathermap.org/ API<br>
+													• Used RxSwift framework for reactive programming<br>
+													• Integrated CoreLocation to show local weather and Search Bar to display any city’s weather<br>
+													• Used URLSession methods to upload data from the API</p>
 										<b>Technologies: </b> <p> 100% Programmatic UI, AutoLayout, RxSwift, RxCocoa, CocoaPods, API Networking with URLSession, Core Location, Git </p>
 									<ul class="icons">
 											<li><a href="https://github.com/mukatayev1/RxSwift-Weather-App" class="icon brands fa-github alt"><span class="label">Check on GitHub</span></a></li>
@@ -152,12 +179,12 @@
 							</section> -->
 
 						<!-- Second Section -->
-							<section id="blog" class="main special">
+							<!-- <section id="blog" class="main special">
 								<header class="major">
 									<h2>Blog</h2>
 									<p><a href="https://aidosmukatayev.medium.com/ios-developer-with-business-adminsitration-degree-and-data-science-experience-363f0ba8a11b">IOS Developer with Business Administration degree and experience in Data Science</a></p>
 								</header>
-							</section>
+							</section> -->
 
 						<!-- Get Started -->
 							<section id="contact" class="main special">
